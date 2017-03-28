@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+	<head>
+		<title>Guessing-Game</title>
+	</head>
+	<body style ="text-align:center; background: <%=color%>">
+		<h2>Guessing Game</h2>
+		<h4>-Neelotpal</h4>
+		<p>The Secret number is X and it ranges between 0 to 100</p>
+		<form>
+  			<input type='text' name='guess' />  
+  			<input type='submit' value='Guess!' />
+  			<p><%=message%></p>
+  			<p><%=turns%></p>
+  			<h5>The answer was <%=answer%></h5>
+  			<h6><%=Time.now%></h6>
+		</form>
+	</body>
